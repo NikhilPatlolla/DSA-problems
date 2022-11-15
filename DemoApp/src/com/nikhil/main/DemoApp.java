@@ -10,5 +10,9 @@ public class DemoApp {
 		String name = "sachin";
 		int count = name.length();
 		System.out.println("The length of the String is::" + count);
+		
+		StringBuilder sb = new StringBuilder("kohll");
+		sb.append("INDRCB");
+		System.out.println("The length of the StringBuilder is: "+ sb.length());
 	}
 }
